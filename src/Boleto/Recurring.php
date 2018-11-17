@@ -3,7 +3,7 @@
 namespace DSisconeto\PagSeguroBoletoRecurring\Boleto;
 
 use DateTime;
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 
 class Recurring implements ToArrayInterface
 {

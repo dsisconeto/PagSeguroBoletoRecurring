@@ -3,7 +3,7 @@
 namespace DSisconeto\PagSeguroBoletoRecurring\Customer\Contact;
 
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 
 
 class Phone implements ToArrayInterface

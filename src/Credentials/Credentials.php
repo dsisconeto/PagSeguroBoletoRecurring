@@ -1,10 +1,10 @@
 <?php
 
-namespace DSisconeto\PagSeguroBoletoRecurring\Common;
+namespace DSisconeto\PagSeguroBoletoRecurring\Credentials;
 
 
 
-class Config implements ToArrayInterface
+class Credentials implements ToArrayInterface
 {
     /**
      * @var string
@@ -24,5 +24,21 @@ class Config implements ToArrayInterface
             'email' => $this->email,
             'token' => $this->token,
         ];
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getToken()
+    {
+        return $this->token;
     }
 }

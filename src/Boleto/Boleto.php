@@ -2,7 +2,7 @@
 
 namespace DSisconeto\PagSeguroBoletoRecurring\Boleto;
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 
 class Boleto implements ToArrayInterface
 {

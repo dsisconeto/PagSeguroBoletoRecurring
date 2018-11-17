@@ -2,7 +2,7 @@
 
 namespace DSisconeto\PagSeguroBoletoRecurring\Customer;
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 use DSisconeto\PagSeguroBoletoRecurring\Customer\Address\Address;
 use DSisconeto\PagSeguroBoletoRecurring\Customer\Contact\Phone;
 use DSisconeto\PagSeguroBoletoRecurring\Customer\Document\AbstractDocument;

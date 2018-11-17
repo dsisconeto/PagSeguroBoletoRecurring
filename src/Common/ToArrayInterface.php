@@ -1,6 +1,6 @@
 <?php
 
-namespace DSisconeto\PagSeguroBoletoRecurring\Common;
+namespace DSisconeto\PagSeguroBoletoRecurring\Credentials;
 
 interface ToArrayInterface
 {

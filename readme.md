@@ -14,12 +14,9 @@ use DSisconeto\PagSeguroBoletoRecurring\Customer\{
     Document\Cnpj,
     Document\Cpf
 };
-use DSisconeto\PagSeguroBoletoRecurring\Http\{
-    Request,
-    SendRequest
-};
+use DSisconeto\PagSeguroBoletoRecurring\Http\{Request};
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\Config;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\Credentials;
 
 $cnpj = new Cnpj('número do cnpj');
 $cpf = new Cpf('número do cpf');
@@ -44,11 +41,9 @@ $periodicity = new Periodicity(Periodicity::MONTHLY);
 
 $recurring = new Recurring(new DateTime('today'), $periodicity, 10);
 
-$config = new Config('email', 'token');
+$credentials = new Credentials('email', 'token');
 
-$request = new Request($config, $customerCpf, $boleto, $recurring);
+$request = new Request($credentials, $customerCpf, $boleto, $recurring);
 
-$sentRequest = new SendRequest($request);
-
-$response = $sentRequest->sendRequest();
+$response = $request->send();
 ````

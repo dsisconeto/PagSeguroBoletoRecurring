@@ -7,10 +7,21 @@
     }
   ],
   "autoload": {
-    "DSisconeto\\PagSeguroBoletoRecurring\\": "src"
+    "psr-4": {
+      "DSisconeto\\PagSeguroBoletoRecurring\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
   },
   "require": {
-    "php":">=7.2",
-    "ext-curl": "*"
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.10.5"
   }
 }

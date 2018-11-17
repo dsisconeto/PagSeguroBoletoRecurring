@@ -2,7 +2,7 @@
 
 namespace DSisconeto\PagSeguroBoletoRecurring\Customer\Document;
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 
 
 abstract class AbstractDocument implements ToArrayInterface

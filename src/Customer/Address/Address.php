@@ -2,7 +2,7 @@
 
 namespace DSisconeto\PagSeguroBoletoRecurring\Customer\Address;
 
-use DSisconeto\PagSeguroBoletoRecurring\Common\ToArrayInterface;
+use DSisconeto\PagSeguroBoletoRecurring\Credentials\ToArrayInterface;
 
 class Address implements ToArrayInterface
 {
