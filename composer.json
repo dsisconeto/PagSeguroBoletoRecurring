@@ -1,0 +1,16 @@
+{
+  "name": "dsisconeto/pag-seguro-boleto",
+  "authors": [
+    {
+      "name": "Dejair Sisconeto",
+      "email": "dejairsisconeto23@gmail.com"
+    }
+  ],
+  "autoload": {
+    "DSisconeto\\PagSeguroBoletoRecurring\\": "src"
+  },
+  "require": {
+    "php":">=7.2",
+    "ext-curl": "*"
+  }
+}
